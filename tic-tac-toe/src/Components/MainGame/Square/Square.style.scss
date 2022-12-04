@@ -1,0 +1,19 @@
+.square {
+    height: 100px;
+    width: 100px;
+    border: solid 3px black;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+@media(max-width:500px) {
+    .square {
+        height: 80px;
+        width: 80px;
+        margin: 3px;
+    }
+
+
+}

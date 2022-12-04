@@ -1,0 +1,17 @@
+.circle {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: solid 7px black;
+    margin: auto;
+
+}
+
+@media(max-width:500px) {
+    .circle {
+        height: 30px;
+        width: 30px;
+    
+    }
+}
